@@ -1,1 +1,1 @@
-let  = prompt("What is your place?\nSeparate words using dashes."); 
+let place = prompt("What is your CITY?\nSeparate words using dashes.\nDon't use capitals");
