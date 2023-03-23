@@ -1,7 +1,8 @@
 var frame = document.createElement('iframe');
 frame.id = "iframeID"
-document.getElementById("iframeID").src="https://lingojam.com/CoolTextFonts";
-document.getElementById("iframeID").style.height = 300px;
-document.getElementById("iframeID").style.width = 300px;
-document.getElementById("iframeID").style.top = 0px;
-document.getElementById("iframeID").style.left = 0px;
+frame.src="https://lingojam.com/CoolTextFonts";
+frame.style.height = 300px;
+frame.style.width = 300px;
+frame.style.top = 0px;
+frame.style.left = 0px;
+frame.raise(10);
