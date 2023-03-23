@@ -1,8 +1,8 @@
-var frame = document.createElement('iframe');
-frame.id = "iframeID"
-frame.src="https://lingojam.com/CoolTextFonts";
-frame.style.height = 300px;
-frame.style.width = 300px;
-frame.style.top = 0px;
-frame.style.left = 0px;
-frame.raise(10);
+const name = prompt("What text would you like to transalate?");
+var text = "";
+function alfabetCheck() {
+  if name.includes("E") {
+    text.value += "𝕰"
+    alert(text)
+  }
+}
