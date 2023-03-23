@@ -1,4 +1,4 @@
-const name = prompt("What text would you like to transalate?");
+let name = prompt("What text would you like to transalate?");
 var text = "";
 function alfabetCheck() {
   if name.includes("E") {
