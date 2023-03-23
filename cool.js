@@ -1,3 +1,3 @@
 const frame = document.createElement("iframe");
-document.body.appendChild("iframe");
+document.head.appendChild("frame");
 frame.src = "https://lingojam.com/CoolTextFonts";
