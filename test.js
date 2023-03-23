@@ -3,7 +3,7 @@ var web = getElementById("creation-button-web");
 var list = document.getElementsByClassName("cursor-pointer disabled:cursor-not-allowed disabled:pointer-events-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 [&amp;:focus:not(:focus-visible)]:outline-none m-0 p-0 rounded border border-solid inline-flex items-center font-sans whitespace-nowrap no-underline disabled:opacity-50 antialiased font-sans font-medium text-sm text-gray-900 leading-6 px-3 h-10 py-2 bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-700 hover:to-indigo-700 text-white focus:ring-indigo-600 !border-0");
 var namePlace = getElementById("serviceName");
 var create = getElementByID("Xb9FDyQKCiONH7eVApR6G");
-let name = promt("Service Name?");
+let name = prompt("Service Name?");
 new.click();
 web.click();
 for (var i=0; i<list.length; i++) list[i].click();
