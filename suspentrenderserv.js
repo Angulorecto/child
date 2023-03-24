@@ -1,4 +1,5 @@
 let id = prompt("Whats the server Id?");
-function loadServ(id) {
-  alert(id);
+function loadServ(Servid) {
+  alert(servid);
 };
+loadServ(id);
