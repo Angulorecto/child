@@ -4,4 +4,4 @@ if (passwordInput = password) {
   window.location.href = "https://fhecnfhushe.onrender.com";
 } else {
   alert("Nice try!");
-}
+};
