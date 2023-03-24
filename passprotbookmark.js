@@ -1,7 +1,7 @@
 var password = "I a dev";
 let passwordInput = prompt("What is the password?");
-if (passwordInput = password) {
-  window.location.replace("https://fhecnfhushe.onrender.com/");
-} else {
+if (passwordInput = Null) {
   alert("Nice try!");
+} else {
+  window.location.replace("https://fhecnfhushe.onrender.com/");
 };
