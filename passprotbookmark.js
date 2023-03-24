@@ -1,8 +1,8 @@
 let passwordInput = prompt("What is the password?");
 if (passwordInput == "") {
   alert("Nice try!");
-} else if (passwordInput != "I a dev") {
+} else if (passwordInput != "sam i am") {
   alert("Nice try!");
 } else {
-  window.location.replace("https://rebrand.ly/f860a2");
+  window.location.replace("https://www.hlj.com/");
 };
