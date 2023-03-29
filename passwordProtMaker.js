@@ -1,4 +1,10 @@
 let password = prompt("What's gonna be the password?");
 let url = prompt("What's the website url?");
-navigator.clipboard.writeText("javascript:let passwordInput = prompt(" + '"What is the password?"' + ");if (passwordInput == " + '""' + ") {  alert("+'"Nice try!"' + ");} else if (passwordInput != " + '"' + password + '"' + ") {  alert(" + '"Nice try!"'+");} else {  window.location.replace("+ '"' + url + '"' +");};");
+var made = document.createElement("input");
+made.id = "myInput";
+var copyText = document.getElementById("myInput");
+copyText.select();
+copyText.value = "javascript:let passwordInput = prompt(" + '"What is the password?"' + ");if (passwordInput == " + '""' + ") {  alert("+'"Nice try!"' + ");} else if (passwordInput != " + '"' + password + '"' + ") {  alert(" + '"Nice try!"'+");} else {  window.location.replace("+ '"' + url + '"' +");};";
+navigator.clipboard.writeText(copyText.value);
+copyText.remove();
 let response = alert("Copied!");
