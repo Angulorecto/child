@@ -7,6 +7,6 @@ function clickCont() {
   contin[0].click();
 }
 while (true) {
-  setTimeout(clickAns, 500);
-  setTimeout(clickCont, 500);
+  setTimeout(clickAns, 1000);
+  setTimeout(clickCont, 1000);
 }
